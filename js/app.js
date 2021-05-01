@@ -1,2 +1,5 @@
+let Sweets=[];
 
-function sweet()
+function sweet(){
+    
+}
