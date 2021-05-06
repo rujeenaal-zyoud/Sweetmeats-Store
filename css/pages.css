@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+header{
+    height: 100px;
+    background-color:rgba(255, 166, 0, 0.986) ;
+
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    color: papayawhip;
+    font-weight: bolder;
+
+}
+#spaceA{
+    padding-top: 30px;
+    margin-left: 300px;
+
+}
+.afont{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+}
+
+
+div{
+    margin-top: 30px;
+	margin-bottom: 37px;
+	padding: 10px;
+	/* float: left; */
+	/* margin-left: 109.5px; */
+    margin-left: 10px;
+	box-shadow:0 20px 50px rgba(0, 0, 0, 0.5px);
+	border-radius: 10px;
+	transition: 0.5s;
+    background-color: #f1dda38a
+    ;
+	width: 305px; 
+	height: 400px;
+    display: inline-block;
+}
+	
+ div:hover{
+	box-shadow: 0 0 10px rgba(248, 103, 19, 0.863), 0 0 40px , 0 0 80px rgb(241, 183, 150);
+	transform: translateY(-10px);
+}
+
+
+
+ div img:hover{
+    transform: scale(1.02);
+    border-radius: 7%;
+	opacity: 7;
+}
+ div img{
+	position: relative;
+	height: 75%;
+	width: 95%;
+	left: 7px;
+    padding-top: 10px;
+    transition: .450ms;
+	margin-bottom: 10px;
+	opacity: .9;
+}
+ .myP{
+	font-size: 27px !important;
+    font-family: 'Indie Flower', cursive;
+	padding: 0;
+	opacity: 1;
+	word-spacing: 0px;
+    color:rgb(218, 158, 86); 
+    font-weight: bolder;
+   
+    
+} 
+
+
+@keyframes change { 
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
